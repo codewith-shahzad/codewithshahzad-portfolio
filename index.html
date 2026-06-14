@@ -1,0 +1,949 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Muhammad Shahzad — WordPress Developer & Cloud Engineer in Training. Premium web development, speed optimization, and hosting management." />
+  <title>Muhammad Shahzad | CodeWithShahzad</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preload" as="image" href="assets/profile-shahzad-cutout.png" />
+</head>
+<body>
+
+  <!-- ═══════════════════════════════ NAVIGATION ═══════════════════════════════ -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-brand">
+        <span class="brand-icon">&lt;/&gt;</span>
+        <span class="brand-text">CodeWith<span class="brand-accent">Shahzad</span></span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#portfolio">Work</a></li>
+        <li><a href="#journey">Journey</a></li>
+        <li><a href="#contact" class="nav-cta">Hire Me</a></li>
+      </ul>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ═══════════════════════════════ HERO ═══════════════════════════════ -->
+  <section class="hero hero-upgrade" id="hero">
+    <div class="hero-orbs">
+      <div class="orb orb-1"></div>
+      <div class="orb orb-2"></div>
+      <div class="orb orb-3"></div>
+    </div>
+    <div class="hero-grid-lines"></div>
+    <div class="hero-spotlight" aria-hidden="true"></div>
+
+    <div class="hero-container">
+      <div class="hero-content">
+        <div class="hero-kicker reveal">
+          WordPress Developer <span>•</span> WooCommerce Expert <span>•</span> Cloud Learner
+        </div>
+
+        <h1 class="hero-title reveal" aria-label="Building Premium Websites Today, Scaling Cloud Systems Tomorrow.">
+          <span>Building</span>
+          <span>Premium</span>
+          <span>Websites</span>
+          <span>Today,</span>
+          <span>Scaling Cloud</span>
+          <span>Systems</span>
+          <span>Tomorrow.</span>
+        </h1>
+
+        <div class="hero-typing-wrap reveal">
+          <span class="typing-prefix">I create&nbsp;</span>
+          <span class="typing-text" id="typingText"></span>
+          <span class="typing-cursor">|</span>
+        </div>
+
+        <p class="hero-desc reveal">
+          I build fast, secure, conversion-focused WordPress websites — while growing toward Linux, AWS, DevOps, and cloud engineering.
+        </p>
+
+        <div class="hero-actions reveal">
+          <a href="#portfolio" class="btn btn-primary">
+            <span>View My Work</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+          <a href="#contact" class="btn btn-ghost">Start a Project</a>
+        </div>
+
+        <div class="hero-tech-pills reveal" aria-label="Core services">
+          <span>WordPress</span>
+          <span>WooCommerce</span>
+          <span>Migration</span>
+          <span>PageSpeed</span>
+          <span>Cloud Journey</span>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal">
+        <div class="hero-card-wrap hero-tilt" id="heroTilt">
+          <div class="hero-portfolio-frame">
+            <div class="frame-grid-dots" aria-hidden="true"></div>
+            <div class="frame-arc arc-one" aria-hidden="true"></div>
+            <div class="frame-arc arc-two" aria-hidden="true"></div>
+            <div class="frame-ribbon" aria-hidden="true"></div>
+            <div class="frame-glow" aria-hidden="true"></div>
+
+            <div class="frame-brand">
+              <span>CodeWithShahzad</span>
+              <small>Build <b>•</b> Optimize <b>•</b> Scale</small>
+            </div>
+
+            <img class="profile-cutout" src="assets/profile-shahzad-cutout.png" alt="Muhammad Shahzad" />
+          </div>
+
+          <div class="profile-info-card glass-card">
+            <div>
+              <strong>Muhammad Shahzad</strong>
+              <span>Founder · CodeWithShahzad</span>
+            </div>
+            <dl>
+              <div><dt>Core</dt><dd>WordPress / WooCommerce</dd></div>
+              <div><dt>Server</dt><dd>cPanel / Linux</dd></div>
+              <div><dt>Next</dt><dd>Cloud / AWS / DevOps</dd></div>
+            </dl>
+          </div>
+
+          <div class="hero-side-chip chip-top">Available for projects</div>
+          <div class="hero-side-chip chip-bottom">50+ Projects</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-scroll-hint">
+      <span>Scroll to explore</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════ ABOUT ═══════════════════════════════ -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="section-label reveal">About Me</div>
+      <div class="about-grid">
+        <div class="about-content">
+          <h2 class="section-title reveal">From WordPress Craftsman<br><span class="gradient-text">to Cloud Architect</span></h2>
+          <p class="about-text reveal">
+            I'm Muhammad Shahzad, founder of <strong>CodeWithShahzad</strong> — a one-person studio obsessed with making websites fast, secure, and scalable. My journey started with WordPress, where I've spent years mastering every layer: from pixel-perfect themes and WooCommerce storefronts to DNS, SSL, and server-level hardening.
+          </p>
+          <p class="about-text reveal">
+            But the web is moving into the cloud, and so am I. Currently deep in Linux systems and AWS fundamentals, I'm building the technical foundation to become a full-spectrum Cloud & DevOps Engineer — someone who can design and deploy the entire stack from a WordPress plugin to a multi-region AWS infrastructure.
+          </p>
+          <div class="about-tags reveal">
+            <span class="tag">WordPress</span>
+            <span class="tag">WooCommerce</span>
+            <span class="tag">Elementor Pro</span>
+            <span class="tag">Speed Optimization</span>
+            <span class="tag">Hosting</span>
+            <span class="tag">Linux ↗</span>
+            <span class="tag">AWS ↗</span>
+            <span class="tag">DevOps ↗</span>
+          </div>
+        </div>
+        <div class="about-cards reveal">
+          <div class="about-card glass-card">
+            <div class="ac-icon">⚡</div>
+            <h3>Performance First</h3>
+            <p>Every site I build or optimize loads under 2 seconds. Speed is not a feature, it's the baseline.</p>
+          </div>
+          <div class="about-card glass-card">
+            <div class="ac-icon">🔒</div>
+            <h3>Security Hardened</h3>
+            <p>SSL, firewalls, malware scanning, DNS configuration — your site stays locked and reliable.</p>
+          </div>
+          <div class="about-card glass-card">
+            <div class="ac-icon">☁️</div>
+            <h3>Cloud Ready</h3>
+            <p>Actively training in AWS and Linux to bridge the gap between web hosting and cloud engineering.</p>
+          </div>
+          <div class="about-card glass-card">
+            <div class="ac-icon">🌍</div>
+            <h3>Global Mindset</h3>
+            <p>Serving clients across Europe, North America, and the Middle East with async-first communication.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════ SERVICES ═══════════════════════════════ -->
+  <section class="services" id="services">
+    <div class="services-bg"></div>
+    <div class="container">
+      <div class="section-label reveal">What I Do</div>
+      <h2 class="section-title centered reveal">Services Built for <span class="gradient-text">Real Results</span></h2>
+      <p class="section-subtitle reveal">End-to-end WordPress expertise — from concept to deployment, and everything in between.</p>
+      <div class="services-grid">
+
+        <div class="service-card glass-card reveal">
+          <div class="service-icon-wrap">
+            <div class="service-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
+            </div>
+          </div>
+          <h3 class="service-title">WordPress Development</h3>
+          <p class="service-desc">Custom themes, Elementor Pro page builders, plugin integrations, and full-site architecture tailored to your brand and business goals.</p>
+          <ul class="service-list">
+            <li>Custom Theme Development</li>
+            <li>Elementor Pro Design</li>
+            <li>Plugin Integration</li>
+            <li>Multisite Setup</li>
+          </ul>
+          <a href="#contact" class="service-link">Get Started →</a>
+        </div>
+
+        <div class="service-card glass-card reveal">
+          <div class="service-icon-wrap">
+            <div class="service-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+            </div>
+          </div>
+          <h3 class="service-title">WooCommerce Development</h3>
+          <p class="service-desc">Fully featured e-commerce stores with payment gateways, inventory management, and conversion-optimized product pages.</p>
+          <ul class="service-list">
+            <li>Store Setup & Configuration</li>
+            <li>Payment Gateway Integration</li>
+            <li>Custom Product Pages</li>
+            <li>Order & Inventory Management</li>
+          </ul>
+          <a href="#contact" class="service-link">Get Started →</a>
+        </div>
+
+        <div class="service-card glass-card reveal">
+          <div class="service-icon-wrap">
+            <div class="service-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><polyline points="1 4 1 10 7 10"/><path d="M3.51 15a9 9 0 1 0 .49-3.72"/></svg>
+            </div>
+          </div>
+          <h3 class="service-title">Website Migration</h3>
+          <p class="service-desc">Zero-downtime migrations between hosts, domains, and platforms. Your site arrives intact, faster, and secure on the new environment.</p>
+          <ul class="service-list">
+            <li>Host-to-Host Migration</li>
+            <li>Domain Transfer</li>
+            <li>Database Migration</li>
+            <li>DNS Propagation Management</li>
+          </ul>
+          <a href="#contact" class="service-link">Get Started →</a>
+        </div>
+
+        <div class="service-card glass-card reveal">
+          <div class="service-icon-wrap">
+            <div class="service-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+            </div>
+          </div>
+          <h3 class="service-title">Speed Optimization</h3>
+          <p class="service-desc">From Core Web Vitals audits to image compression, caching layers, and CDN setup — I push your site to a 90+ PageSpeed score.</p>
+          <ul class="service-list">
+            <li>Core Web Vitals Audit</li>
+            <li>Caching & CDN Setup</li>
+            <li>Image & Code Optimization</li>
+            <li>Database Cleanup</li>
+          </ul>
+          <a href="#contact" class="service-link">Get Started →</a>
+        </div>
+
+        <div class="service-card glass-card reveal">
+          <div class="service-icon-wrap">
+            <div class="service-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+            </div>
+          </div>
+          <h3 class="service-title">Hosting & Server Management</h3>
+          <p class="service-desc">cPanel, DNS zone management, SSL certificates, email setup, and ongoing server health monitoring to keep your site always-on.</p>
+          <ul class="service-list">
+            <li>cPanel / WHM Management</li>
+            <li>DNS & SSL Configuration</li>
+            <li>Email Hosting Setup</li>
+            <li>Uptime Monitoring</li>
+          </ul>
+          <a href="#contact" class="service-link">Get Started →</a>
+        </div>
+
+        <div class="service-card glass-card reveal">
+          <div class="service-icon-wrap">
+            <div class="service-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </div>
+          </div>
+          <h3 class="service-title">Website Maintenance</h3>
+          <p class="service-desc">Monthly retainer plans covering updates, backups, security scans, uptime checks, and priority support — so you can focus on your business.</p>
+          <ul class="service-list">
+            <li>Plugin & Theme Updates</li>
+            <li>Daily / Weekly Backups</li>
+            <li>Security Scanning</li>
+            <li>Priority Support</li>
+          </ul>
+          <a href="#contact" class="service-link">Get Started →</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════ SKILLS ═══════════════════════════════ -->
+  <section class="skills" id="skills">
+    <div class="container">
+      <div class="section-label reveal">Expertise</div>
+      <h2 class="section-title centered reveal">Skills & <span class="gradient-text">Proficiency</span></h2>
+      <div class="skills-grid">
+
+        <div class="skill-group glass-card reveal">
+          <h3 class="sg-title">
+            <span class="sg-icon">🎨</span> Frontend Skills
+          </h3>
+          <div class="skill-bars">
+            <div class="skill-bar-item">
+              <div class="sb-meta"><span>HTML5 / CSS3</span><span class="sb-pct">92%</span></div>
+              <div class="progress-track"><div class="progress-fill" data-width="92"></div></div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="sb-meta"><span>Responsive Design</span><span class="sb-pct">88%</span></div>
+              <div class="progress-track"><div class="progress-fill" data-width="88"></div></div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="sb-meta"><span>JavaScript</span><span class="sb-pct">72%</span></div>
+              <div class="progress-track"><div class="progress-fill" data-width="72"></div></div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="sb-meta"><span>UI/UX Design</span><span class="sb-pct">80%</span></div>
+              <div class="progress-track"><div class="progress-fill" data-width="80"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-group glass-card reveal">
+          <h3 class="sg-title">
+            <span class="sg-icon">🔵</span> WordPress Skills
+          </h3>
+          <div class="skill-bars">
+            <div class="skill-bar-item">
+              <div class="sb-meta"><span>WordPress Core</span><span class="sb-pct">95%</span></div>
+              <div class="progress-track"><div class="progress-fill" data-width="95"></div></div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="sb-meta"><span>Elementor Pro</span><span class="sb-pct">93%</span></div>
+              <div class="progress-track"><div class="progress-fill" data-width="93"></div></div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="sb-meta"><span>WooCommerce</span><span class="sb-pct">90%</span></div>
+              <div class="progress-track"><div class="progress-fill" data-width="90"></div></div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="sb-meta"><span>Speed Optimization</span><span class="sb-pct">88%</span></div>
+              <div class="progress-track"><div class="progress-fill" data-width="88"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-group glass-card reveal">
+          <h3 class="sg-title">
+            <span class="sg-icon">☁️</span> Cloud Skills <span class="learning-badge">Learning</span>
+          </h3>
+          <div class="skill-bars">
+            <div class="skill-bar-item">
+              <div class="sb-meta"><span>Linux Fundamentals</span><span class="sb-pct">55%</span></div>
+              <div class="progress-track"><div class="progress-fill cloud-fill" data-width="55"></div></div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="sb-meta"><span>AWS Basics</span><span class="sb-pct">35%</span></div>
+              <div class="progress-track"><div class="progress-fill cloud-fill" data-width="35"></div></div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="sb-meta"><span>DevOps Concepts</span><span class="sb-pct">30%</span></div>
+              <div class="progress-track"><div class="progress-fill cloud-fill" data-width="30"></div></div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="sb-meta"><span>Cloud Infrastructure</span><span class="sb-pct">25%</span></div>
+              <div class="progress-track"><div class="progress-fill cloud-fill" data-width="25"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-group glass-card reveal">
+          <h3 class="sg-title">
+            <span class="sg-icon">🖥️</span> Server Skills
+          </h3>
+          <div class="skill-bars">
+            <div class="skill-bar-item">
+              <div class="sb-meta"><span>cPanel / WHM</span><span class="sb-pct">92%</span></div>
+              <div class="progress-track"><div class="progress-fill" data-width="92"></div></div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="sb-meta"><span>DNS Configuration</span><span class="sb-pct">90%</span></div>
+              <div class="progress-track"><div class="progress-fill" data-width="90"></div></div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="sb-meta"><span>SSL / Security</span><span class="sb-pct">88%</span></div>
+              <div class="progress-track"><div class="progress-fill" data-width="88"></div></div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="sb-meta"><span>Website Migration</span><span class="sb-pct">95%</span></div>
+              <div class="progress-track"><div class="progress-fill" data-width="95"></div></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════ PORTFOLIO ═══════════════════════════════ -->
+  <section class="portfolio" id="portfolio">
+    <div class="portfolio-bg"></div>
+    <div class="container">
+      <div class="section-label reveal">Case Studies</div>
+      <h2 class="section-title centered reveal">Selected <span class="gradient-text">Work</span></h2>
+      <p class="section-subtitle reveal">Real projects. Real results. Real clients.</p>
+
+      <div class="portfolio-grid">
+
+        <div class="project-card glass-card reveal">
+          <div class="project-image">
+            <div class="project-img-placeholder pi-ecom">
+              <div class="pip-inner">
+                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+                <span>E-Commerce Store</span>
+              </div>
+            </div>
+            <div class="project-overlay">
+              <a href="#contact" class="btn btn-sm btn-primary">Live Demo</a>
+              <a href="#contact" class="btn btn-sm btn-ghost">Case Study</a>
+            </div>
+          </div>
+          <div class="project-info">
+            <div class="project-tags">
+              <span class="ptag">WooCommerce</span>
+              <span class="ptag">Elementor</span>
+              <span class="ptag">Payment Gateway</span>
+            </div>
+            <h3 class="project-title">Fashion Store Revamp</h3>
+            <p class="project-desc">Rebuilt a stagnant WooCommerce store, slashing load time from 8s to 1.4s and boosting monthly revenue by 40% through UX optimization.</p>
+            <div class="project-metrics">
+              <span class="pm-item"><strong>8s→1.4s</strong> Load Time</span>
+              <span class="pm-item"><strong>+40%</strong> Revenue</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card glass-card reveal">
+          <div class="project-image">
+            <div class="project-img-placeholder pi-corp">
+              <div class="pip-inner">
+                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
+                <span>Corporate Website</span>
+              </div>
+            </div>
+            <div class="project-overlay">
+              <a href="#contact" class="btn btn-sm btn-primary">Live Demo</a>
+              <a href="#contact" class="btn btn-sm btn-ghost">Case Study</a>
+            </div>
+          </div>
+          <div class="project-info">
+            <div class="project-tags">
+              <span class="ptag">WordPress</span>
+              <span class="ptag">Elementor Pro</span>
+              <span class="ptag">SEO</span>
+            </div>
+            <h3 class="project-title">B2B Consulting Portal</h3>
+            <p class="project-desc">Full corporate site for a UK-based consulting firm: custom forms, CRM integration, multilingual support, and a 95 PageSpeed score.</p>
+            <div class="project-metrics">
+              <span class="pm-item"><strong>95</strong> PageSpeed</span>
+              <span class="pm-item"><strong>3 lang</strong> Multilingual</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card glass-card reveal">
+          <div class="project-image">
+            <div class="project-img-placeholder pi-migrate">
+              <div class="pip-inner">
+                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polyline points="1 4 1 10 7 10"/><path d="M3.51 15a9 9 0 1 0 .49-3.72"/></svg>
+                <span>Migration Project</span>
+              </div>
+            </div>
+            <div class="project-overlay">
+              <a href="#contact" class="btn btn-sm btn-primary">Live Demo</a>
+              <a href="#contact" class="btn btn-sm btn-ghost">Case Study</a>
+            </div>
+          </div>
+          <div class="project-info">
+            <div class="project-tags">
+              <span class="ptag">Migration</span>
+              <span class="ptag">cPanel</span>
+              <span class="ptag">DNS</span>
+            </div>
+            <h3 class="project-title">High-Traffic News Site Migration</h3>
+            <p class="project-desc">Zero-downtime migration of a 50,000-article news site from shared hosting to a VPS. Complete DNS cutover managed with zero reader impact.</p>
+            <div class="project-metrics">
+              <span class="pm-item"><strong>0 min</strong> Downtime</span>
+              <span class="pm-item"><strong>50k+</strong> Articles</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card glass-card reveal">
+          <div class="project-image">
+            <div class="project-img-placeholder pi-speed">
+              <div class="pip-inner">
+                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+                <span>Speed Optimization</span>
+              </div>
+            </div>
+            <div class="project-overlay">
+              <a href="#contact" class="btn btn-sm btn-primary">Live Demo</a>
+              <a href="#contact" class="btn btn-sm btn-ghost">Case Study</a>
+            </div>
+          </div>
+          <div class="project-info">
+            <div class="project-tags">
+              <span class="ptag">Optimization</span>
+              <span class="ptag">Core Web Vitals</span>
+              <span class="ptag">CDN</span>
+            </div>
+            <h3 class="project-title">Real Estate Agency Speed Audit</h3>
+            <p class="project-desc">Comprehensive Core Web Vitals audit and optimization for a Dubai real estate platform. Score jumped from 34 to 91 in under a week.</p>
+            <div class="project-metrics">
+              <span class="pm-item"><strong>34→91</strong> Score</span>
+              <span class="pm-item"><strong>-67%</strong> Load Time</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card glass-card reveal">
+          <div class="project-image">
+            <div class="project-img-placeholder pi-sec">
+              <div class="pip-inner">
+                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                <span>Security Hardening</span>
+              </div>
+            </div>
+            <div class="project-overlay">
+              <a href="#contact" class="btn btn-sm btn-primary">Live Demo</a>
+              <a href="#contact" class="btn btn-sm btn-ghost">Case Study</a>
+            </div>
+          </div>
+          <div class="project-info">
+            <div class="project-tags">
+              <span class="ptag">Security</span>
+              <span class="ptag">SSL</span>
+              <span class="ptag">Firewall</span>
+            </div>
+            <h3 class="project-title">Healthcare Clinic Security Hardening</h3>
+            <p class="project-desc">End-to-end security overhaul for a clinic website: SSL upgrade, malware removal, firewall rules, and two-factor authentication implementation.</p>
+            <div class="project-metrics">
+              <span class="pm-item"><strong>A+</span> SSL Rating</span>
+              <span class="pm-item"><strong>0</strong> Vulnerabilities</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card glass-card reveal">
+          <div class="project-image">
+            <div class="project-img-placeholder pi-maint">
+              <div class="pip-inner">
+                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="3"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14M4.93 4.93a10 10 0 0 0 0 14.14"/></svg>
+                <span>Ongoing Maintenance</span>
+              </div>
+            </div>
+            <div class="project-overlay">
+              <a href="#contact" class="btn btn-sm btn-primary">Live Demo</a>
+              <a href="#contact" class="btn btn-sm btn-ghost">Case Study</a>
+            </div>
+          </div>
+          <div class="project-info">
+            <div class="project-tags">
+              <span class="ptag">Maintenance</span>
+              <span class="ptag">Hosting</span>
+              <span class="ptag">Backup</span>
+            </div>
+            <h3 class="project-title">Multi-Brand Retail Maintenance Plan</h3>
+            <p class="project-desc">12-month managed care plan for a retail group's 6 WordPress sites: weekly backups, monthly performance reports, and 24-hour response SLA.</p>
+            <div class="project-metrics">
+              <span class="pm-item"><strong>6 sites</strong> Managed</span>
+              <span class="pm-item"><strong>99.9%</strong> Uptime</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════ WHY CHOOSE ME ═══════════════════════════════ -->
+  <section class="why-me" id="why">
+    <div class="container">
+      <div class="section-label reveal">Why Me</div>
+      <h2 class="section-title centered reveal">What Sets Me <span class="gradient-text">Apart</span></h2>
+      <div class="why-grid">
+        <div class="why-card glass-card reveal">
+          <div class="why-icon">🚀</div>
+          <h3>Fast Turnaround</h3>
+          <p>Clear deadlines, no surprises. Most projects delivered in 48–72 hours. Urgent? I offer same-day service.</p>
+        </div>
+        <div class="why-card glass-card reveal">
+          <div class="why-icon">📡</div>
+          <h3>Clear Communication</h3>
+          <p>You always know the project status. Daily updates, no technical jargon, and I speak your business language.</p>
+        </div>
+        <div class="why-card glass-card reveal">
+          <div class="why-icon">🛠️</div>
+          <h3>End-to-End Service</h3>
+          <p>Design, dev, deployment, optimization, security — I cover the full stack so you never need to juggle vendors.</p>
+        </div>
+        <div class="why-card glass-card reveal">
+          <div class="why-icon">💡</div>
+          <h3>Growth-Oriented</h3>
+          <p>I build with your future in mind — scalable architecture, clean code, and tech that won't need to be rebuilt in 2 years.</p>
+        </div>
+        <div class="why-card glass-card reveal">
+          <div class="why-icon">🌐</div>
+          <h3>International Experience</h3>
+          <p>Clients across 3 continents, 10+ countries. I understand global market requirements, hosting regions, and GDPR.</p>
+        </div>
+        <div class="why-card glass-card reveal">
+          <div class="why-icon">🔁</div>
+          <h3>Post-Launch Support</h3>
+          <p>The relationship doesn't end at launch. All projects include a free 30-day support window and optional monthly care plans.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════ ACHIEVEMENTS ═══════════════════════════════ -->
+  <section class="achievements" id="achievements">
+    <div class="achievements-bg"></div>
+    <div class="container">
+      <div class="achievements-grid">
+        <div class="achievement-item reveal" data-target="50">
+          <div class="ach-number"><span class="counter" data-target="50">0</span>+</div>
+          <div class="ach-label">Projects Completed</div>
+          <div class="ach-sub">WordPress & WooCommerce</div>
+        </div>
+        <div class="achievement-item reveal" data-target="30">
+          <div class="ach-number"><span class="counter" data-target="30">0</span>+</div>
+          <div class="ach-label">Migrations Done</div>
+          <div class="ach-sub">Zero Downtime</div>
+        </div>
+        <div class="achievement-item reveal" data-target="25">
+          <div class="ach-number"><span class="counter" data-target="25">0</span>+</div>
+          <div class="ach-label">Sites Optimized</div>
+          <div class="ach-sub">90+ PageSpeed Scores</div>
+        </div>
+        <div class="achievement-item reveal" data-target="100">
+          <div class="ach-number"><span class="counter" data-target="100">0</span>%</div>
+          <div class="ach-label">Client Satisfaction</div>
+          <div class="ach-sub">5-Star Reviews</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════ TESTIMONIALS ═══════════════════════════════ -->
+  <section class="testimonials" id="testimonials">
+    <div class="container">
+      <div class="section-label reveal">Social Proof</div>
+      <h2 class="section-title centered reveal">What Clients <span class="gradient-text">Say</span></h2>
+      <div class="testimonials-grid">
+
+        <div class="testimonial-card glass-card reveal">
+          <div class="testi-quote">"</div>
+          <p class="testi-text">Shahzad migrated our entire WooCommerce store to a new host without a single minute of downtime. We didn't even notice it happened — that's how smooth it was. Exceptional.</p>
+          <div class="testi-author">
+            <div class="testi-avatar ta-blue">SR</div>
+            <div class="testi-info">
+              <strong>Sarah Reynolds</strong>
+              <span>E-Commerce Brand Owner · UK</span>
+            </div>
+            <div class="testi-stars">★★★★★</div>
+          </div>
+        </div>
+
+        <div class="testimonial-card glass-card reveal">
+          <div class="testi-quote">"</div>
+          <p class="testi-text">Our PageSpeed went from 31 to 94 in literally 4 days. Shahzad knows exactly what to touch and what to leave alone. He doesn't waste your time or your money.</p>
+          <div class="testi-author">
+            <div class="testi-avatar ta-purple">AH</div>
+            <div class="testi-info">
+              <strong>Ahmed Hassan</strong>
+              <span>Digital Agency · UAE</span>
+            </div>
+            <div class="testi-stars">★★★★★</div>
+          </div>
+        </div>
+
+        <div class="testimonial-card glass-card reveal">
+          <div class="testi-quote">"</div>
+          <p class="testi-text">Working with CodeWithShahzad felt like having an in-house tech team. He handled our DNS, SSL, hosting setup, and WordPress build all in one go. Highly recommend.</p>
+          <div class="testi-author">
+            <div class="testi-avatar ta-cyan">ML</div>
+            <div class="testi-info">
+              <strong>Maria Lindqvist</strong>
+              <span>Startup Founder · Sweden</span>
+            </div>
+            <div class="testi-stars">★★★★★</div>
+          </div>
+        </div>
+
+        <div class="testimonial-card glass-card reveal">
+          <div class="testi-quote">"</div>
+          <p class="testi-text">We'd been hacked twice before. After Shahzad's security hardening, we've had zero incidents in 14 months. He explains everything clearly without making you feel overwhelmed.</p>
+          <div class="testi-author">
+            <div class="testi-avatar ta-orange">JM</div>
+            <div class="testi-info">
+              <strong>James Mitchell</strong>
+              <span>Healthcare Clinic · Canada</span>
+            </div>
+            <div class="testi-stars">★★★★★</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════ CLOUD JOURNEY ═══════════════════════════════ -->
+  <section class="journey" id="journey">
+    <div class="journey-bg"></div>
+    <div class="container">
+      <div class="section-label reveal">My Trajectory</div>
+      <h2 class="section-title centered reveal">The <span class="gradient-text">Cloud Journey</span></h2>
+      <p class="section-subtitle reveal">From WordPress craftsman to Cloud Engineer — one deliberate step at a time.</p>
+
+      <div class="journey-timeline">
+        <div class="timeline-connector"></div>
+
+        <div class="journey-node reveal active-node" data-step="1">
+          <div class="node-dot nd-active">
+            <div class="node-pulse"></div>
+          </div>
+          <div class="node-card glass-card">
+            <div class="node-phase">Phase 1 · NOW</div>
+            <div class="node-icon">🔵</div>
+            <h3 class="node-title">WordPress Expert</h3>
+            <p class="node-desc">Mastered WordPress, Elementor Pro, WooCommerce, website migration, speed optimization, hosting management, DNS, SSL, and security.</p>
+            <div class="node-status status-complete">✓ Achieved</div>
+          </div>
+        </div>
+
+        <div class="journey-node reveal" data-step="2">
+          <div class="node-dot nd-progress">
+            <div class="node-pulse"></div>
+          </div>
+          <div class="node-card glass-card">
+            <div class="node-phase">Phase 2 · IN PROGRESS</div>
+            <div class="node-icon">🐧</div>
+            <h3 class="node-title">Linux Systems</h3>
+            <p class="node-desc">Command line mastery, shell scripting, file system management, user permissions, process management, and server administration.</p>
+            <div class="node-status status-progress">⟳ Learning</div>
+          </div>
+        </div>
+
+        <div class="journey-node reveal" data-step="3">
+          <div class="node-dot nd-upcoming"></div>
+          <div class="node-card glass-card">
+            <div class="node-phase">Phase 3 · NEXT</div>
+            <div class="node-icon">☁️</div>
+            <h3 class="node-title">AWS Cloud</h3>
+            <p class="node-desc">EC2, S3, RDS, VPC, IAM, Lambda, CloudFront — full AWS Solutions Architect certification pathway.</p>
+            <div class="node-status status-upcoming">◎ Planned</div>
+          </div>
+        </div>
+
+        <div class="journey-node reveal" data-step="4">
+          <div class="node-dot nd-upcoming"></div>
+          <div class="node-card glass-card">
+            <div class="node-phase">Phase 4 · FUTURE</div>
+            <div class="node-icon">⚙️</div>
+            <h3 class="node-title">DevOps Engineering</h3>
+            <p class="node-desc">CI/CD pipelines, Docker, Kubernetes, Terraform, monitoring stacks — automating the full software delivery lifecycle.</p>
+            <div class="node-status status-upcoming">◎ Planned</div>
+          </div>
+        </div>
+
+        <div class="journey-node reveal" data-step="5">
+          <div class="node-dot nd-upcoming"></div>
+          <div class="node-card glass-card">
+            <div class="node-phase">Phase 5 · GOAL</div>
+            <div class="node-icon">🚀</div>
+            <h3 class="node-title">Cloud Engineer</h3>
+            <p class="node-desc">Designing and operating resilient, scalable cloud infrastructure for global companies — the complete transformation complete.</p>
+            <div class="node-status status-goal">★ Destination</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════ CONTACT ═══════════════════════════════ -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="section-label reveal">Get In Touch</div>
+      <h2 class="section-title centered reveal">Let's Build Something <span class="gradient-text">Great Together</span></h2>
+      <p class="section-subtitle reveal">Have a project in mind? I'd love to hear about it. Fill in the form and I'll get back to you within 24 hours.</p>
+
+      <div class="contact-layout">
+        <div class="contact-info reveal">
+          <h3 class="ci-title">Reach Me Directly</h3>
+          <div class="contact-channels">
+            <a href="mailto:mrshahzad7302@gmail.com" class="channel-card glass-card">
+              <div class="ch-icon ch-email">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+              </div>
+              <div class="ch-text">
+                <span class="ch-label">Email</span>
+                <span class="ch-value">mrshahzad7302@gmail.com</span>
+              </div>
+            </a>
+            <a href="https://wa.me/923215084025" class="channel-card glass-card" target="_blank">
+              <div class="ch-icon ch-whatsapp">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.099.541 4.067 1.487 5.779L.057 23.5l5.86-1.536A11.95 11.95 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.853 0-3.587-.498-5.084-1.367l-.365-.211-3.775.99 1.004-3.673-.231-.378A9.96 9.96 0 0 1 2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+              </div>
+              <div class="ch-text">
+                <span class="ch-label">WhatsApp</span>
+                <span class="ch-value">+92 321 5084 025</span>
+              </div>
+            </a>
+            <a href="https://linkedin.com/in/codewithshahzad" class="channel-card glass-card" target="_blank">
+              <div class="ch-icon ch-linkedin">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+              </div>
+              <div class="ch-text">
+                <span class="ch-label">LinkedIn</span>
+                <span class="ch-value">linkedin.com/in/codewithshahzad</span>
+              </div>
+            </a>
+            <a href="https://fiverr.com/codewithshahzad" class="channel-card glass-card" target="_blank">
+              <div class="ch-icon ch-fiverr">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm4.5 17.25H13v-6H9.75V9h3V7.875c0-2.295 1.395-3.375 3.375-3.375h2.625V7.5H16.5c-.621 0-1.125.504-1.125 1.125V9h3.375l-.75 2.25H15.375V17.25zM8.25 7.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm-2.25 9.75V9.75H9V17.25H6z"/></svg>
+              </div>
+              <div class="ch-text">
+                <span class="ch-label">Fiverr</span>
+                <span class="ch-value">fiverr.com/codewithshahzad</span>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="contact-form-wrap reveal">
+          <form class="contact-form glass-card" id="contactForm">
+            <h3 class="form-title">Send a Message</h3>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="fname">Full Name</label>
+                <input type="text" id="fname" name="name" placeholder="John Smith" required />
+              </div>
+              <div class="form-group">
+                <label for="femail">Email Address</label>
+                <input type="email" id="femail" name="email" placeholder="john@company.com" required />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="fservice">Service Needed</label>
+              <select id="fservice" name="service">
+                <option value="">Select a service...</option>
+                <option>WordPress Development</option>
+                <option>WooCommerce Development</option>
+                <option>Website Migration</option>
+                <option>Speed Optimization</option>
+                <option>Hosting & Server Management</option>
+                <option>Website Maintenance</option>
+                <option>Other</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="fmessage">Project Details</label>
+              <textarea id="fmessage" name="message" rows="5" placeholder="Tell me about your project, timeline, and budget..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full">
+              <span>Send Message</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+            </button>
+            <div class="form-success" id="formSuccess">
+              <span>✓</span> Message sent! I'll reply within 24 hours.
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════ FOOTER ═══════════════════════════════ -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <a href="#hero" class="nav-brand">
+              <span class="brand-icon">&lt;/&gt;</span>
+              <span class="brand-text">CodeWith<span class="brand-accent">Shahzad</span></span>
+            </a>
+            <p class="footer-tagline">WordPress Developer · Cloud Engineer in Training · Serving clients worldwide with premium web solutions.</p>
+            <div class="footer-socials">
+              <a href="mailto:shahzad@codewithshahzad.com" class="fsocial" title="Email">✉</a>
+              <a href="https://linkedin.com/in/codewithshahzad" class="fsocial" target="_blank" title="LinkedIn">in</a>
+              <a href="https://fiverr.com/codewithshahzad" class="fsocial" target="_blank" title="Fiverr">F</a>
+              <a href="https://wa.me/923001234567" class="fsocial" target="_blank" title="WhatsApp">W</a>
+            </div>
+          </div>
+          <div class="footer-nav-col">
+            <h4>Services</h4>
+            <ul>
+              <li><a href="#services">WordPress Development</a></li>
+              <li><a href="#services">WooCommerce</a></li>
+              <li><a href="#services">Website Migration</a></li>
+              <li><a href="#services">Speed Optimization</a></li>
+              <li><a href="#services">Hosting Management</a></li>
+            </ul>
+          </div>
+          <div class="footer-nav-col">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="#about">About Me</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#journey">Cloud Journey</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-nav-col">
+            <h4>Currently Learning</h4>
+            <ul>
+              <li>Linux Administration</li>
+              <li>AWS Solutions Architect</li>
+              <li>Docker & Kubernetes</li>
+              <li>Terraform / IaC</li>
+              <li>CI/CD Pipelines</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>© 2025 CodeWithShahzad · Muhammad Shahzad · All rights reserved.</p>
+        <p>Crafted with <span class="heart">♥</span> — currently upgrading to the cloud.</p>
+      </div>
+    </div>
+  </footer>
+
+  <div class="scroll-to-top" id="scrollTop" title="Back to top">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 15l-6-6-6 6"/></svg>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
